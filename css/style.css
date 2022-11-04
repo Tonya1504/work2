@@ -1,0 +1,36 @@
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.shopu {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.shop2 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
