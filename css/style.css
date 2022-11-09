@@ -3,34 +3,143 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 
 .title {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-weight: 900;
+    font-size: 700;
 }
 
-
-
-.shopu {
+.header {
+    margin: 40px 100px 40px 100px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
+
+.h1 {
+    color: gray;
+}
+
+.h1::first-letter {
+    color: aqua;
+}
+
 
 .shop {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
     flex-wrap: wrap;
 }
 
-.shop2 {
-    flex-wrap: wrap;
+.footer {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+}
+
+.shopsBlock {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+    width: 850px;
+}
+
+.item {
+    width: 170px;
+    margin: 15px 20px 15px 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+.image {
+    background-color: gray;
+}
+
+.main-link {
+    display: flex;
+    background-color: black;
+    height: 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.main-link:hover {
+    background-color: aqua;
+}
+
+.itemPage {
+    padding: 0px 10px 0px 10px;
+    color: gray;
+}
+
+.itemPage:hover {
+    color: aqua;
+}
+
+.newsItem {
+    width: 260px;
+    height: 10 px;
+}
+
+.name {
+    color: white;
+}
+
+
+.prise {
+    color: white;
+    background-color: gray;
+}
+
+.button {
+    background-color: aqua;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+
+.nameNews {
+    font-size: 25px;
+    color: gray;
+}
+
+.nameNews::after {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 100px;
+    height: 3px;
+    background-color: aqua;
+    content: "";
+}
+
+.class {}
+
+.news {}
+
+
+
+.item :visited {}
